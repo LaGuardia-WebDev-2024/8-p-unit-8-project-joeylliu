@@ -1,6 +1,6 @@
 @font-face{
   font-family: water;
-  src: url("https://cdn.glitch.global/97f7bbb3-2cd9-4b34-bbf2-d0a28c71f10b/Water%20Park.ttf?v=1738683075854");
+  src: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfsrxQIOLD4mlACBYGTtBLxXivYoAS7ULFFQ&s");
 }
 
 body {
@@ -9,14 +9,18 @@ body {
   color: navy;
   margin: auto;
   font-family: water;
+
+  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🌎</text></svg>") 16 0,auto; /*!emojicursor.app*/
+
 }
+
 
 h1{
   font-size: 30px;
 }
 
 #myCanvas {
-  background-image: url("https://seaviewinfo.com/wp-content/uploads/2018/07/SeaScape.jpg");
+  background-image: url("https://s41721.pcdn.co/wp-content/uploads/2022/06/Ocean.jpg");
   background-size: 600px 400px;
   border-radius: 300px;
   border: 5px solid white;
