@@ -19,9 +19,7 @@ h1{
   font-size: 30px;
 }
 
-#myCanvas {
-  background-image: url("https://s41721.pcdn.co/wp-content/uploads/2022/06/Ocean.jpg");
-  background-size: 600px 400px;
+#myCanvas {background-image: url("https://t4.ftcdn.net/jpg/06/16/53/01/360_F_616530106_WPxzjkhYF0qVYReUvLgqTQsibkQl5t9O.jpg");
   border-radius: 300px;
   border: 5px solid white;
 }
