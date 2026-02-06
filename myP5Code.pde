@@ -45,6 +45,15 @@ else if(count==3){
   drawFish(295,335, color(random(0,255),random(0,255), random(0,255)));
   count=4;
 }
+else if(count==4){
+  drawDolphin(200,215)
+  count=5;
+}
+
+else if(count==5){
+  drawPenguin(100,150)
+  count=6;
+}
 else {
   drawFish(random(0,600), random(0,400),color(random(0,255),random(0,255), random(0,255)));
   drawFish(random(0,600), random(0,400),color(random(0,255),random(0,255), random(0,255)));
@@ -54,14 +63,27 @@ else {
   drawFish(random(0,600), random(0,400),color(random(0,255),random(0,255), random(0,255)));
 }
 
+
 };
 
 //🟡drawFish Function - will run when called
 var drawFish = function(fishX, fishY, fishColor){
-  textSize(80);
-  fill(fishColor);
-  text("𓆝", fishX, fishY);
+  textSize(30);
+  text("🐡", fishX, fishY);
 };
+
+var drawPenguin = function(penguinX, penguinY){
+  textSize(50);
+  text("🐧", penguinX, penguinY);
+};
+
+var drawDolphin = function(dolphinX, dolphinY ){
+  textSize(60);
+  text("🐬", dolphinX, dolphinY);
+};
+
+
+
 
 
 
